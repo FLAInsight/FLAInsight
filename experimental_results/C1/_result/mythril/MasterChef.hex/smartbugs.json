@@ -1,0 +1,51 @@
+{
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_bytecode.sh' '/sb/MasterChef.hex' '7200'",
+        "image": "smartbugs/mythril:0.23.15",
+        "mem_limit": "4g",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmpewx3rx3v": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "/bdata/usrdata/ca/yjj/traVul_byte/MasterChef.hex",
+    "platform": {
+        "cpu": "Intel(R) Xeon(R) Gold 6240 CPU @ 2.60GHz",
+        "python": "3.8.18.final.0 (64 bit)",
+        "release": "5.15.0-101-generic",
+        "smartbugs": "2.0.8",
+        "system": "Linux",
+        "version": "#111~20.04.1-Ubuntu SMP Mon Mar 11 15:44:43 UTC 2024"
+    },
+    "result": {
+        "duration": 5809.253084659576,
+        "exit_code": 1,
+        "logs": "result.log",
+        "output": null,
+        "start": 1711976547.8600223
+    },
+    "runid": "20240401_1302",
+    "solc": null,
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_bytecode.sh' '$FILENAME' '$TIMEOUT'",
+        "id": "mythril-0.23.15",
+        "image": "smartbugs/mythril:0.23.15",
+        "info": "Mythril analyses EVM bytecode using symbolic analysis, taint analysis and control flow checking to detect a variety of security vulnerabilities.",
+        "mem_limit": null,
+        "mode": "bytecode",
+        "name": "Mythril",
+        "origin": "https://github.com/ConsenSys/mythril",
+        "output": null,
+        "parser": "parser.py",
+        "solc": null,
+        "version": "0.23.15"
+    }
+}

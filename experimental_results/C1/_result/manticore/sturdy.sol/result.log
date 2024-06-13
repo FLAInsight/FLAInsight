@@ -1,0 +1,117 @@
+2024-04-01 13:01:45,540: [11] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:45,541: [11] m.main:INFO: Beginning analysis
+2024-04-01 13:01:45,543: [11] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:46,786: [11] m.e.manticore:INFO: Starting symbolic transaction: 0
+2024-04-01 13:01:46,906: [11] m.e.manticore:INFO: 0 alive states, 1 terminated states
+2024-04-01 13:01:46,947: [11] m.e.manticore:INFO: Starting symbolic transaction: 1
+2024-04-01 13:01:47,084: [11] m.c.manticore:INFO: Results in /mcore_7g0_sqz1
+2024-04-01 13:01:47,084: [11] m.c.manticore:INFO: Total time: 0.293642520904541
+2024-04-01 13:01:47,600: [70] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:47,600: [70] m.main:INFO: Beginning analysis
+2024-04-01 13:01:47,602: [70] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:48,857: [70] m.e.manticore:INFO: Starting symbolic transaction: 0
+2024-04-01 13:01:48,966: [70] m.e.manticore:INFO: 0 alive states, 1 terminated states
+2024-04-01 13:01:49,008: [70] m.e.manticore:INFO: Starting symbolic transaction: 1
+2024-04-01 13:01:49,148: [70] m.c.manticore:INFO: Results in /mcore_4qww_iy8
+2024-04-01 13:01:49,149: [70] m.c.manticore:INFO: Total time: 0.2871561050415039
+2024-04-01 13:01:49,670: [129] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:49,670: [129] m.main:INFO: Beginning analysis
+2024-04-01 13:01:49,673: [129] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:50,919: [129] m.e.manticore:INFO: Starting symbolic transaction: 0
+2024-04-01 13:01:51,016: [129] m.e.manticore:INFO: 0 alive states, 1 terminated states
+2024-04-01 13:01:51,067: [129] m.e.manticore:INFO: Starting symbolic transaction: 1
+2024-04-01 13:01:51,210: [129] m.c.manticore:INFO: Results in /mcore_zgtlytfv
+2024-04-01 13:01:51,210: [129] m.c.manticore:INFO: Total time: 0.2862403392791748
+2024-04-01 13:01:51,680: [188] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:51,680: [188] m.main:INFO: Beginning analysis
+2024-04-01 13:01:51,682: [188] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:52,941: [188] m.e.manticore:INFO: Starting symbolic transaction: 0
+2024-04-01 13:01:53,053: [188] m.e.manticore:INFO: 0 alive states, 1 terminated states
+2024-04-01 13:01:53,095: [188] m.e.manticore:INFO: Starting symbolic transaction: 1
+2024-04-01 13:01:53,220: [188] m.c.manticore:INFO: Results in /mcore_2jwhfw_q
+2024-04-01 13:01:53,221: [188] m.c.manticore:INFO: Total time: 0.2782292366027832
+2024-04-01 13:01:53,666: [247] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:53,666: [247] m.main:INFO: Beginning analysis
+2024-04-01 13:01:53,669: [247] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:54,835: [247] m.e.manticore:INFO: Starting symbolic transaction: 0
+2024-04-01 13:01:54,932: [247] m.e.manticore:INFO: 0 alive states, 1 terminated states
+2024-04-01 13:01:54,974: [247] m.e.manticore:INFO: Starting symbolic transaction: 1
+2024-04-01 13:01:55,113: [247] m.c.manticore:INFO: Results in /mcore_4f3ov5m5
+2024-04-01 13:01:55,113: [247] m.c.manticore:INFO: Total time: 0.27329158782958984
+2024-04-01 13:01:55,557: [306] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:55,558: [306] m.main:INFO: Beginning analysis
+2024-04-01 13:01:55,559: [306] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:56,754: [306] m.e.manticore:INFO: Starting symbolic transaction: 0
+2024-04-01 13:01:56,871: [306] m.e.manticore:INFO: 0 alive states, 1 terminated states
+2024-04-01 13:01:56,921: [306] m.e.manticore:INFO: Starting symbolic transaction: 1
+2024-04-01 13:01:57,048: [306] m.c.manticore:INFO: Results in /mcore_mowgbi5l
+2024-04-01 13:01:57,049: [306] m.c.manticore:INFO: Total time: 0.28940868377685547
+2024-04-01 13:01:57,494: [365] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:57,494: [365] m.main:INFO: Beginning analysis
+2024-04-01 13:01:57,496: [365] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:58,739: [365] m.e.manticore:INFO: Starting symbolic transaction: 0
+2024-04-01 13:01:58,839: [365] m.e.manticore:INFO: 0 alive states, 1 terminated states
+2024-04-01 13:01:58,873: [365] m.e.manticore:INFO: Starting symbolic transaction: 1
+2024-04-01 13:01:59,012: [365] m.c.manticore:INFO: Results in /mcore_r1m6msgz
+2024-04-01 13:01:59,012: [365] m.c.manticore:INFO: Total time: 0.2683985233306885
+2024-04-01 13:01:59,504: [424] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:59,504: [424] m.main:INFO: Beginning analysis
+2024-04-01 13:01:59,506: [424] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:02:00,721: [424] m.e.manticore:INFO: Starting symbolic transaction: 0
+2024-04-01 13:02:00,827: [424] m.e.manticore:INFO: 0 alive states, 1 terminated states
+2024-04-01 13:02:00,868: [424] m.e.manticore:INFO: Starting symbolic transaction: 1
+2024-04-01 13:02:00,996: [424] m.c.manticore:INFO: Results in /mcore_m4llryyb
+2024-04-01 13:02:00,996: [424] m.c.manticore:INFO: Total time: 0.27112817764282227
+2024-04-01 13:02:01,437: [483] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:02:01,437: [483] m.main:INFO: Beginning analysis
+2024-04-01 13:02:01,439: [483] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:02:02,679: [483] m.e.manticore:INFO: Starting symbolic transaction: 0
+2024-04-01 13:02:02,798: [483] m.e.manticore:INFO: 0 alive states, 1 terminated states
+2024-04-01 13:02:02,844: [483] m.e.manticore:INFO: Starting symbolic transaction: 1
+2024-04-01 13:02:02,991: [483] m.c.manticore:INFO: Results in /mcore_813o0csj
+2024-04-01 13:02:02,991: [483] m.c.manticore:INFO: Total time: 0.30736494064331055
+2024-04-01 13:02:03,528: [542] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:02:03,528: [542] m.main:INFO: Beginning analysis
+2024-04-01 13:02:03,530: [542] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:09:07,342: [542] m.e.manticore:INFO: Starting symbolic transaction: 0
+2024-04-01 13:19:29,161: [542] m.e.manticore:INFO: Found a concrete globalsha3 b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xcb7\xf40M\xe8\xd1\xca-\xf2GLn:\x00\xab>r\x04b8\xe9\x92.' -> 48269062264468166479206413336960451304368199407364250703315157797258642944646
+2024-04-01 13:21:01,606: [542] m.e.manticore:INFO: Found a concrete globalsha3 b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xcb7\xf40M\xe8\xd1\xca-\xf2GLn:\x00\xab>r\x04bkk\x9fi' -> 50549855679319851691737163804044417852773133509354819939204974594774963415477
+2024-04-01 13:27:15,898: [542] m.e.manticore:INFO: Found a concrete globalsha3 b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xcb7\xf40M\xe8\xd1\xca-\xf2GLn:\x00\xab>r\x04bm\xae\xfa\xb6' -> 1055652411836961478987396626354386265558383050251346512327683798962710333522
+2024-04-01 13:33:54,687: [542] m.c.worker:ERROR: Exception in state 10: SolverUnknown('unsat')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/worker.py", line 137, in run
+    current_state.execute()
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/state.py", line 8, in execute
+    return self._platform.execute()
+  File "/usr/local/lib/python3.7/dist-packages/manticore/platforms/evm.py", line 3106, in execute
+    self.current_vm.execute()
+  File "/usr/local/lib/python3.7/dist-packages/manticore/platforms/evm.py", line 1324, in execute
+    self._check_jmpdest()
+  File "/usr/local/lib/python3.7/dist-packages/manticore/platforms/evm.py", line 1256, in _check_jmpdest
+    self.constraints, should_check_jumpdest
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/smtlib/solver.py", line 644, in get_all_values
+    while self._is_sat():
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/smtlib/solver.py", line 421, in _is_sat
+    raise SolverUnknown(status)
+manticore.exceptions.SolverUnknown: unsat
+ 
+Killed
+2024-04-01 14:10:05,027: [616] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 14:10:05,027: [616] m.main:INFO: Beginning analysis
+2024-04-01 14:10:05,029: [616] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 14:10:06,284: [616] m.e.manticore:INFO: Starting symbolic transaction: 0
+2024-04-01 14:10:06,408: [616] m.e.manticore:INFO: 0 alive states, 1 terminated states
+2024-04-01 14:10:06,459: [616] m.e.manticore:INFO: Starting symbolic transaction: 1
+2024-04-01 14:10:06,599: [616] m.c.manticore:INFO: Results in /mcore_5xmd2l_d
+2024-04-01 14:10:06,599: [616] m.c.manticore:INFO: Total time: 0.3104517459869385
+2024-04-01 14:10:07,159: [675] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 14:10:07,159: [675] m.main:INFO: Beginning analysis
+2024-04-01 14:10:07,162: [675] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 14:10:08,453: [675] m.e.manticore:INFO: Starting symbolic transaction: 0
+2024-04-01 14:10:08,559: [675] m.e.manticore:INFO: 0 alive states, 1 terminated states
+2024-04-01 14:10:08,609: [675] m.e.manticore:INFO: Starting symbolic transaction: 1
+2024-04-01 14:10:08,762: [675] m.c.manticore:INFO: Results in /mcore_3z8vx1kl
+2024-04-01 14:10:08,763: [675] m.c.manticore:INFO: Total time: 0.30598998069763184
+2024-04-01 14:10:09,297: [734] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 14:10:09,297: [734] m.main:INFO: Beginning analysis
+2024-04-01 14:10:09,299: [734] m.e.manticore:INFO: Starting symbolic create contract

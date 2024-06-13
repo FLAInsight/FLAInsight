@@ -1,0 +1,65 @@
+2024-04-01 13:01:44,368: [11] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:44,368: [11] m.main:INFO: Beginning analysis
+2024-04-01 13:01:44,370: [11] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:45,038: [11] m.e.manticore:INFO: Starting symbolic transaction: 0
+2024-04-01 13:01:45,145: [11] m.e.manticore:INFO: 0 alive states, 1 terminated states
+2024-04-01 13:01:45,184: [11] m.e.manticore:INFO: Starting symbolic transaction: 1
+2024-04-01 13:01:45,312: [11] m.c.manticore:INFO: Results in /mcore_fu7ood2o
+2024-04-01 13:01:45,313: [11] m.c.manticore:INFO: Total time: 0.2699306011199951
+2024-04-01 13:01:45,785: [70] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:45,785: [70] m.main:INFO: Beginning analysis
+2024-04-01 13:01:45,787: [70] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:10:45,635: [70] m.e.manticore:INFO: Found a concrete globalsha3 b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03' -> 87903029871075914254377627908054574944891091886930582284385770809450030037083
+2024-04-01 13:11:00,245: [70] m.e.manticore:INFO: Found a concrete globalsha3 b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04' -> 62514009886607029107290561805838585334079798074568712924583230797734656856475
+2024-04-01 13:11:08,096: [70] m.e.manticore:INFO: Starting symbolic transaction: 0
+2024-04-01 13:21:39,699: [70] m.e.manticore:INFO: Found a concrete globalsha3 b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01' -> 27376155845717860833342594873357525089589924219251518322086369159840883582034
+2024-04-01 13:38:11,328: [70] m.e.manticore:INFO: Found a concrete globalsha3 b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00' -> 73138091548938366139099779971772605061518111956507126412222883840269740007539
+2024-04-01 13:59:55,353: [70] m.e.manticore:INFO: 11 alive states, 6 terminated states
+2024-04-01 14:05:12,759: [157] m.c.manticore:INFO: Generated testcase No. 2 - RETURN(2 txs)
+2024-04-01 14:05:12,760: [157] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2024-04-01 14:05:12,761: [154] m.c.manticore:INFO: Generated testcase No. 1 - RETURN(2 txs)
+2024-04-01 14:05:12,762: [154] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2024-04-01 14:05:12,762: [152] m.c.manticore:INFO: Generated testcase No. 0 - RETURN(2 txs)
+2024-04-01 14:05:12,763: [152] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2024-04-01 14:05:12,794: [156] m.c.manticore:INFO: Generated testcase No. 3 - RETURN(2 txs)
+2024-04-01 14:05:12,795: [156] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2024-04-01 14:05:13,125: [151] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2024-04-01 14:05:13,142: [155] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2024-04-01 14:05:13,266: [148] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2024-04-01 14:05:13,286: [149] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2024-04-01 14:05:13,334: [150] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2024-04-01 14:05:13,752: [151] m.c.manticore:INFO: Generated testcase No. 4 - RETURN(2 txs)
+2024-04-01 14:05:13,782: [155] m.c.manticore:INFO: Generated testcase No. 5 - RETURN(2 txs)
+2024-04-01 14:05:13,967: [148] m.c.manticore:INFO: Generated testcase No. 6 - RETURN(2 txs)
+2024-04-01 14:05:14,018: [149] m.c.manticore:INFO: Generated testcase No. 7 - RETURN(2 txs)
+2024-04-01 14:05:14,054: [150] m.c.manticore:INFO: Generated testcase No. 8 - RETURN(2 txs)
+2024-04-01 14:05:14,205: [153] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2024-04-01 14:05:15,909: [153] m.c.manticore:INFO: Generated testcase No. 9 - RETURN(2 txs)
+2024-04-01 14:05:22,956: [147] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+2024-04-01 14:05:31,031: [147] m.c.manticore:INFO: Generated testcase No. 10 - RETURN(2 txs)
+2024-04-01 14:11:20,519: [70] m.c.plugin:WARNING: Caught will_solve in state None, but failed to capture its initialization
+Traceback (most recent call last):
+  File "/usr/local/bin/manticore", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/__main__.py", line 42, in main
+    ethereum_main(args, logger)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/cli.py", line 145, in ethereum_main
+    m.finalize(only_alive_states=args.only_alive_testcases)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/manticore.py", line 177, in newFunction
+    return func(self, *args, **kw)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1811, in finalize
+    "{:x}: {:2.2f}%\n".format(int(address), self.global_coverage(address))
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1888, in global_coverage
+    runtime_bytecode = state.solve_one(code)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/state.py", line 483, in solve_one
+    return self.solve_one_n(expr, constrain=constrain)[0]
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/state.py", line 494, in solve_one_n
+    return self.solve_one_n_batched(exprs, constrain)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/state.py", line 509, in solve_one_n_batched
+    values = self._solver.get_value_in_batch(self._constraints, exprs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/core/smtlib/solver.py", line 791, in get_value_in_batch
+    raise SolverError("Timeout")
+manticore.exceptions.SolverError: Timeout
+2024-04-01 14:17:11,731: [196] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 14:17:11,731: [196] m.main:INFO: Beginning analysis
+2024-04-01 14:17:11,733: [196] m.e.manticore:INFO: Starting symbolic create contract

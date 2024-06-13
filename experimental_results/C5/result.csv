@@ -1,0 +1,61 @@
+project,result,command
+One Ring,FALSE,python3 defi_tainter.py -bp Fantom -la 0xc06826f52f29b34c5d8b2c61abf844cebcf78abf -sa 0x4e332d616b5ba1edfd87c899e534d996c336a2fc -fs 0x00f714ce -bn 34041500
+Discover,FALSE,python3 defi_tainter.py -bp BSC -la 0xe732a7bd6706cbd6834b300d7c56a8d2096723a7 -sa 0xe732a7bd6706cbd6834b300d7c56a8d2096723a7 -fs 0x7271479a -bn 18446846
+EGD Finance,TRUE,python3 defi_tainter.py -bp BSC -la 0x93c175439726797dcee24d08e4ac9164e88e7aee -sa 0x34bd6dba456bc31c2b3393e499fa10bed32a9370 -fs 0x8a623d86 -bn 20245540
+Nereus Finance,TRUE,python3 defi_tainter.py -bp Avalanche -la 0xe767c6c3bf42f550a5a258a379713322b6c4c060 -sa 0xc0a7a7f141b6a5bce3ec1b81823c8afa456b6930 -fs 0x656f3d64 -bn 19613453
+BXH,FALSE,python3 defi_tainter.py -bp BSC -la 0x27539b1dee647b38e1b987c41c5336b1a8dce663 -sa 0x27539b1dee647b38e1b987c41c5336b1a8dce663 -fs 0xe2bbb158 -bn 21727290
+ATK (Journey of Awakening),FALSE,python3 defi_tainter.py -bp BSC -la 0x9cb928bf50ed220ac8f703bce35be5ce7f56c99c -sa 0x9cb928bf50ed220ac8f703bce35be5ce7f56c99c -fs 0x8a809095 -bn 22102839
+Inuko Finance,FALSE,python3 defi_tainter.py -bp BSC -la 0x09beddae85a9b5ada57a5bd7979bb7b3dd08b538 -sa 0x09beddae85a9b5ada57a5bd7979bb7b3dd08b538 -fs 0xc2ca269a -bn 22226575
+MU&MUG,TRUE,python3 defi_tainter.py -bp Avalanche -la 0x4aa679402c6afce1e0f7eb99ca4f09a30ce228ab -sa 0x4aa679402c6afce1e0f7eb99ca4f09a30ce228ab -fs 0x9b594f51 -bn 23435295
+Lodestar,FALSE,python3 defi_tainter.py -bp Arbitrum -la 0x8f2354f9464514efdae441314b8325e97bf96cdc -sa 0xcc25dac54a1a62061b596fd3baf7d454f34c56ff -fs 0xc5ebeaec -bn 45121904
+Nimbus Platform,FALSE,python3 defi_tainter.py -bp BSC -la 0x3aa2b9de4ce397d93e11699c3f07b769b210bbd5 -sa 0x3aa2b9de4ce397d93e11699c3f07b769b210bbd5 -fs 0x3d18b912 -bn 23886615
+RoeFinance,FALSE,python3 defi_tainter.py -bp ETH -la 0x574ff39184dee9e46f6c3229b95e0e0938e398d0 -sa 0x5f360c6b7b25dfbfa4f10039ea0f7ecfb9b02e60 -fs 0xa415bcad -bn 16384470
+DKP,TRUE,python3 defi_tainter.py -bp BSC -la 0x89257a52ad585aacb1137fcc8abbd03a963b9683 -sa 0x89257a52ad585aacb1137fcc8abbd03a963b9683 -fs 0x53556559 -bn 26284146
+ParaSpace,FALSE,python3 defi_tainter.py -bp ETH -la 0xd9ffe514e96014fa79bc0c33874dd2ef20678f6f -sa 0x638a98bbb92a7582d07c52ff407d49664dc8b3ee -fs 0x1d5d7237 -bn 16845559
+AllBridge,FALSE,python3 defi_tainter.py -bp BSC -la 0x179aad597399b9ae078acfe2b746c09117799ca0 -sa 0x179aad597399b9ae078acfe2b746c09117799ca0 -fs 0x2e1a7d4d -bn 26982068
+0vix,FALSE,python3 defi_tainter.py -bp polygon -la 0xb329fc9379dbf71bc58178383ba494d10d4e296f -sa 0xe053a4014b50666ed388ab8cbb18d5834de0ab12 -fs 0xc5ebeaec -bn 42054769
+themis,FALSE,python3 defi_tainter.py -bp Arbitrum -la 0x848f29fe9e3f0ba67095c26ebe48648ccfd8148d -sa 0x75f805e2fb248462e7817f0230b36e9fae0280fc -fs 0xa415bcad -bn 105524524
+eminence,TRUE,python3 defi_tainter.py -bp ETH -la 0x5ade7ae8660293f2ebfcefaba91d141d72d221e8 -sa 0x5ade7ae8660293f2ebfcefaba91d141d72d221e8 -fs 0xd79875eb -bn 10954411
+Dot.finance,TRUE,python3 defi_tainter.py -bp BSC -la 0xbfca3b1df0ae863e966b9e35b9a3a3fee2ad8b07 -sa 0xe84ceea58b351e6277418e0f302b9fb678fc54ab -fs 0x3d18b912 -bn 10332961
+equalizer finance,TRUE,python3 defi_tainter.py -bp Polygon -la 0x3befd5085a3e3c59a92be6a1ff192ea785beac5d -sa 0x3befd5085a3e3c59a92be6a1ff192ea785beac5d -fs 0x9c8f9f23 -bn 29272944
+ANCH project,TRUE,python3 defi_tainter.py -bp BSC -la 0x0aef5a75f5e71a62337ed069eb3454bf23bdcbc5 -sa 0x0aef5a75f5e71a62337ed069eb3454bf23bdcbc5 -fs 0x3ccfd60b -bn 20164078
+GDSchain,TRUE,python3 defi_tainter.py -bp BSC -la 0xc1bb12560468fb255a8e8431bdf883cc4cb3d278 -sa 0xc1bb12560468fb255a8e8431bdf883cc4cb3d278 -fs 0xa9059cbb -bn 24451036
+yearnFinance,TRUE,python3 defi_tainter.py -bp ETH -la 0x9c211BFa6DC329C5E757A223Fb72F5481D676DC1 -sa 0x9c211BFa6DC329C5E757A223Fb72F5481D676DC1 -fs 0xd0e30db0 -bn 11792260
+SafeDollar,FALSE,python3 defi_tainter.py -bp Polygon -la 0x17684f4d5385fac79e75ceafc93f22d90066ed5c -sa 0x17684f4d5385fac79e75ceafc93f22d90066ed5c -fs 0x98969e82 -bn 16234076
+ApeRocket finance,TRUE,python3 defi_tainter.py -bp BSC -la 0x274b5b7868c848ac690dc9b4011e9e7e29133700 -sa 0x274b5b7868c848ac690dc9b4011e9e7e29133700 -fs 0x3d18b912 -bn 9139708
+pancakebunny,TRUE,python3 defi_tainter.py -bp Polygon -la 0xdf0be663c84322f55ad7b40a4120cdecba4c4b45 -sa 0xdf0be663c84322f55ad7b40a4120cdecba4c4b45 -fs 0x853828b6 -bn 16933434
+array finance,FALSE,python3 defi_tainter.py -bp ETH -la 0xc1ced83d4dc4c63e92f79b9447981f3be5d53c83 -sa 0xc1ced83d4dc4c63e92f79b9447981f3be5d53c83 -fs 0xc60746f6 -bn 12849787
+pancake Hunny,TRUE,python3 defi_tainter.py -bp BSC -la 0x27d4ca4bb855e435959295ec273fa16fe8caea14 -sa 0xef43313e8218f25fe63d5ae76d98182d7a4797cc -fs 0x3d18b912 -bn 11932682
+cream,TRUE,python3 defi_tainter.py -bp ETH -la 0xd06527d5e56a3495252a528c4987003b712860ee -sa 0xd06527d5e56a3495252a528c4987003b712860ee -fs 0xc5ebeaec -bn 13499798
+ploutoz finance,FALSE,python3 defi_tainter.py -bp BSC -la 0x8e9654f15ee934edab16350e933577e0f9566d27 -sa 0x27b6031e9cbb9a383acf2f7d7168ba052ccaecfb -fs 0x2ea295fa -bn 12886417
+inverseFinance,FALSE,python3 defi_tainter.py -bp ETH -la 0x7fcb7dac61ee35b3d4a51117a7c58d53f0a8a670 -sa 0x7fcb7dac61ee35b3d4a51117a7c58d53f0a8a670 -fs 0xc5ebeaec -bn 14506359
+loser coin,TRUE,python3 defi_tainter.py -bp BSC -la 0x03d9a687c0dab6f68bbee8179a50f8ead60b4959 -sa 0x03d9a687c0dab6f68bbee8179a50f8ead60b4959 -fs 0x42966c68 -bn 17796957
+pandoraDAO,FALSE,python3 defi_tainter.py -bp BSC -la 0x83757110409d993fcf3610260d7af753e2423529 -sa 0x83757110409d993fcf3610260d7af753e2423529 -fs 0x68ff91e3 -bn 18907350
+Plantworld token,FALSE,python3 defi_tainter.py -bp BSC -la 0x29b2525e11bc0b0e9e59f705f318601ea6756645 -sa 0x29b2525e11bc0b0e9e59f705f318601ea6756645 -fs 0xa9059cbb -bn 22252046
+helio money,FALSE,python3 defi_tainter.py -bp BSC -la 0xf876cd244e7baa0a31e4a7a842f4530d040931e6 -sa 0xb68443ee3e828bad1526b3e0bdf2dfc6b1975ec4 -fs 0x4b8a3529 -bn 23546603
+Firedrake Protocol,FALSE,python3 defi_tainter.py -bp BSC -la 0x1954b6bd198c29c3ecf2d6f6bc70a4d41ea1cc07 -sa 0x1954b6bd198c29c3ecf2d6f6bc70a4d41ea1cc07 -fs 0x2d838119 -bn 25430419
+DAYUDAO,FALSE,python3 defi_tainter.py -bp BSC -la 0xc7e40C93b15456Aab953E317c354D6604bE8063d -sa 0xc7e40C93b15456Aab953E317c354D6604bE8063d -fs 0x691b1f65 -bn 25467274
+DeFiGeek community,FALSE,python3 defi_tainter.py -bp ETH -la 0xbDADDC6a1321Ed458b53aB9e51DC0De8dba78D43 -sa 0x6d8260fFf752bA01bCF76C919e9E3D328971152E -fs 0xc5ebeaec -bn 17066755
+Never Fall,TRUE,python3 defi_tainter.py -bp BSC -la 0x5abde8b434133c98c36f4b21476791d95d888bf5 -sa 0x5abde8b434133c98c36f4b21476791d95d888bf5 -fs 0xe4849b32 -bn 27863178
+CellFrame Network,TRUE,python3 defi_tainter.py -bp BSC -la 0xb4e47c13db187d54839cd1e08422af57e5348fc1 -sa 0xb4e47c13db187d54839cd1e08422af57e5348fc1 -fs 0x454b0608 -bn 28708274
+Compounder Finance,FALSE,python3 defi_tainter.py -bp ETH -la 0x45f783cce6b7ff23b2ab2d70e416cdb7d6055f51 -sa 0x45f783cce6b7ff23b2ab2d70e416cdb7d6055f51 -fs 0x3df02124 -bn 17426065
+PalmSwap,TRUE,python3 defi_tainter.py -bp BSC -la 0xa68f4b2c69c7f991c3237ba9b678d75368ccff8f -sa 0x6876b9804719d8d9f5aeb6ad1322270458fa99e0 -fs 0xe5209bc1 -bn 30248638
+Zunami Protocol,FALSE,python3 defi_tainter.py -bp ETH -la 0xb40b6608b2743e691c9b54ddbdee7bf03cd79f1c -sa 0xb40b6608b2743e691c9b54ddbdee7bf03cd79f1c -fs 0xd341ea79 -bn 17908950
+Black Hole Token,TRUE,python3 defi_tainter.py -bp BSC -la 0x8ca7835aa30b025b38a59309dd1479d2f452623a -sa 0x8ca7835aa30b025b38a59309dd1479d2f452623a -fs 0x4e290832 -bn 32512074
+Platypus Defi,FALSE,python3 defi_tainter.py -bp Avalanche -la 0xe5c84c7630a505b6adf69b5594d0ff7fedd5f447 -sa 0x4658ea7e9960d6158a261104aaa160cc953bb6ba -fs 0x09a5fca3 -bn 36346389
+Wise Lending,FALSE,python3 defi_tainter.py -bp ETH -la 0x84524baa1951247b3a2617a843e6ece915bb9674 -sa 0x84524baa1951247b3a2617a843e6ece915bb9674 -fs 0xc7c5c4a7 -bn 18342121
+Beluga Protocol,FALSE,python3 defi_tainter.py -bp Arbitrum -la 0x22d909abe10cc2f9fffa4770d8adca0a89493eb0 -sa 0x15a024061c151045ba483e9243291dee6ee5fd8a -fs 0xc5456a2d -bn 140129167
+Hope Lend,FALSE,python3 defi_tainter.py -bp ETH -la 0x3a6d9bf8286a4ada77c15ecf82d4c0c0af95be74 -sa 0x53fbcada1201a465740f2d64ecdf6fac425f9030 -fs 0xa415bcad -bn 18377042
+beltFinance,TRUE,python3 defi_tainter.py -bp BSC -la 0x9171bf7c050ac8b4cf7835e51f7b4841dfb2ccd0 -sa 0x9171bf7c050ac8b4cf7835e51f7b4841dfb2ccd0 -fs 0x441a3e70 -bn 7839140
+spartanProtocol,FALSE,python3 defi_tainter.py -bp BSC -la 0x3de669c4f1f167a8afbc9993e4753b84b576426f -sa 0x3de669c4f1f167a8afbc9993e4753b84b576426f -fs 0x67b9a286 -bn 7048833
+valueDeFi,TRUE,python3 defi_tainter.py -bp ETH -la 0xddd7df28b1fb668b77860b473af819b03db61101 -sa 0x55bf8304c78ba6fe47fd251f37d7beb485f86d26 -fs 0x39bb96a8 -bn 11256673
+xToken,FALSE,python3 defi_tainter.py -bp ETH -la 0x04bef870de607519c91d16a23434ad5745f62a63 -sa 0x2367012ab9c3da91290f71590d5ce217721eefe4 -fs 0xa0712d68 -bn 12419918
+HarvestFinance,TRUE,python3 defi_tainter.py -bp ETH -la 0x9b3be0cc5dd26fd0254088d03d8206792715588b -sa 0xf0358e8c3cd5fa238a29301d0bea3d63a17bedbe -fs 0x2e1a7d4d -bn 11129474
+bzX,FALSE,python3 defi_tainter.py -bp ETH -la 0x85ca13d8496b2d22d6518faeb524911e096dd7e0 -sa 0x77f973fcaf871459aa58cd81881ce453759281bc -fs 0xcfb65bb9 -bn 9504627
+CheeseBank,TRUE,python3 defi_tainter.py -bp ETH -la 0x5e181bdde2fa8af7265cb3124735e9a13779c021 -sa 0x5e181bdde2fa8af7265cb3124735e9a13779c021 -fs 0xc5ebeaec -bn 11205648
+InverseFinance,FALSE,python3 defi_tainter.py -bp ETH -la 0x7fcb7dac61ee35b3d4a51117a7c58d53f0a8a670 -sa 0x7fcb7dac61ee35b3d4a51117a7c58d53f0a8a670 -fs 0xc5ebeaec -bn 14972419
+WarpFinance,TRUE,python3 defi_tainter.py -bp ETH -la 0xba539b9a5c2d412cb10e5770435f362094f9541c -sa 0xba539b9a5c2d412cb10e5770435f362094f9541c -fs 0xa555989 -bn 11473330
+AutoShark,TRUE,python3 defi_tainter.py -bp BSC -la 0xa007d347f2e55d731e101aae64722c321b2b80dc -sa 0xa007d347f2e55d731e101aae64722c321b2b80dc -fs 0x3d18b912 -bn 7698696
+Merlin Labs,TRUE,python3 defi_tainter.py -bp BSC -la 0x8927f48b12814beda29844ed73b21232720b1d07 -sa 0x758c6c9731ee68ad278f8c2f2f27b84acb092649 -fs 0x3d18b912 -bn 7734914
+PancakeBunny,TRUE,python3 defi_tainter.py -bp BSC -la 0xd415e6caa8af7cc17b7abd872a42d5f2c90838ea -sa 0x633e538ecf0bee1a18c2edfe10c4da0d6e71e77b -fs 0x3d18b912 -bn 7556391
+PancakeHunny,TRUE,python3 defi_tainter.py -bp BSC -la 0x12180bb36ddbce325b3be0c087d61fce39b8f5a4 -sa 0x12180bb36ddbce325b3be0c087d61fce39b8f5a4 -fs 0x3d18b912 -bn 7962339

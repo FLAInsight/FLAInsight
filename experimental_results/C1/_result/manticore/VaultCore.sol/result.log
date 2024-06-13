@@ -1,0 +1,651 @@
+2024-04-01 13:01:47,162: [11] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:47,162: [11] m.main:INFO: Beginning analysis
+2024-04-01 13:01:47,165: [11] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:47,191: [11] m.e.manticore:INFO: Failed to build contract /sb/VaultCore.sol:482:1: Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:47,253: [11] m.c.manticore:INFO: Results in /mcore_r8p0zvkg
+2024-04-01 13:01:47,253: [11] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:47,741: [36] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:47,742: [36] m.main:INFO: Beginning analysis
+2024-04-01 13:01:47,743: [36] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:47,768: [36] m.e.manticore:INFO: Failed to build contract ParserError: Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:47,831: [36] m.c.manticore:INFO: Results in /mcore_9jhipn64
+2024-04-01 13:01:47,831: [36] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:48,335: [61] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:48,335: [61] m.main:INFO: Beginning analysis
+2024-04-01 13:01:48,338: [61] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:48,359: [61] m.e.manticore:INFO: Failed to build contract Source Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:48,425: [61] m.c.manticore:INFO: Results in /mcore_wvj95zso
+2024-04-01 13:01:48,425: [61] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:48,901: [86] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:48,902: [86] m.main:INFO: Beginning analysis
+2024-04-01 13:01:48,903: [86] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:48,923: [86] m.e.manticore:INFO: Failed to build contract file Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:48,985: [86] m.c.manticore:INFO: Results in /mcore_y0u1m_65
+2024-04-01 13:01:48,985: [86] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:49,493: [111] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:49,493: [111] m.main:INFO: Beginning analysis
+2024-04-01 13:01:49,495: [111] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:49,517: [111] m.e.manticore:INFO: Failed to build contract requires Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:49,577: [111] m.c.manticore:INFO: Results in /mcore_i6bvgfi_
+2024-04-01 13:01:49,578: [111] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:50,021: [136] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:50,021: [136] m.main:INFO: Beginning analysis
+2024-04-01 13:01:50,023: [136] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:50,047: [136] m.e.manticore:INFO: Failed to build contract different Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:50,120: [136] m.c.manticore:INFO: Results in /mcore_99uzh1fr
+2024-04-01 13:01:50,120: [136] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:50,582: [161] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:50,582: [161] m.main:INFO: Beginning analysis
+2024-04-01 13:01:50,585: [161] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:50,603: [161] m.e.manticore:INFO: Failed to build contract compiler Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:50,672: [161] m.c.manticore:INFO: Results in /mcore_k9mkea9f
+2024-04-01 13:01:50,672: [161] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:51,185: [186] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:51,186: [186] m.main:INFO: Beginning analysis
+2024-04-01 13:01:51,187: [186] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:51,207: [186] m.e.manticore:INFO: Failed to build contract version Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:51,277: [186] m.c.manticore:INFO: Results in /mcore_liqgf0wo
+2024-04-01 13:01:51,277: [186] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:51,744: [211] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:51,744: [211] m.main:INFO: Beginning analysis
+2024-04-01 13:01:51,746: [211] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:51,767: [211] m.e.manticore:INFO: Failed to build contract (current Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-2:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:51,838: [211] m.c.manticore:INFO: Results in /mcore_xduonobg
+2024-04-01 13:01:51,839: [211] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:52,330: [236] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:52,330: [236] m.main:INFO: Beginning analysis
+2024-04-01 13:01:52,333: [236] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:52,358: [236] m.e.manticore:INFO: Failed to build contract compiler Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:52,427: [236] m.c.manticore:INFO: Results in /mcore_m4prm4lw
+2024-04-01 13:01:52,428: [236] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:52,931: [261] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:52,931: [261] m.main:INFO: Beginning analysis
+2024-04-01 13:01:52,934: [261] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:52,953: [261] m.e.manticore:INFO: Failed to build contract is Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-2:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:53,015: [261] m.c.manticore:INFO: Results in /mcore_mufyt98c
+2024-04-01 13:01:53,015: [261] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:53,506: [286] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:53,506: [286] m.main:INFO: Beginning analysis
+2024-04-01 13:01:53,508: [286] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:53,530: [286] m.e.manticore:INFO: Failed to build contract 0.5.17+commit.d19bba13.Linux.g++ Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:53,597: [286] m.c.manticore:INFO: Results in /mcore_bl6jc19y
+2024-04-01 13:01:53,597: [286] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:54,036: [311] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:54,036: [311] m.main:INFO: Beginning analysis
+2024-04-01 13:01:54,039: [311] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:54,063: [311] m.e.manticore:INFO: Failed to build contract - Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:54,129: [311] m.c.manticore:INFO: Results in /mcore_m1wzxt7h
+2024-04-01 13:01:54,129: [311] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:54,573: [336] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:54,574: [336] m.main:INFO: Beginning analysis
+2024-04-01 13:01:54,575: [336] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:54,598: [336] m.e.manticore:INFO: Failed to build contract note Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:54,665: [336] m.c.manticore:INFO: Results in /mcore_9e14_vxx
+2024-04-01 13:01:54,665: [336] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:55,105: [361] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:55,105: [361] m.main:INFO: Beginning analysis
+2024-04-01 13:01:55,107: [361] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:55,126: [361] m.e.manticore:INFO: Failed to build contract that Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:55,188: [361] m.c.manticore:INFO: Results in /mcore_7tm300qb
+2024-04-01 13:01:55,189: [361] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:55,621: [386] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:55,622: [386] m.main:INFO: Beginning analysis
+2024-04-01 13:01:55,624: [386] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:55,649: [386] m.e.manticore:INFO: Failed to build contract nightly Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:55,711: [386] m.c.manticore:INFO: Results in /mcore_ub5f_q4_
+2024-04-01 13:01:55,711: [386] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:56,236: [411] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:56,236: [411] m.main:INFO: Beginning analysis
+2024-04-01 13:01:56,238: [411] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:56,264: [411] m.e.manticore:INFO: Failed to build contract builds Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-2:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:56,323: [411] m.c.manticore:INFO: Results in /mcore__4gg4r01
+2024-04-01 13:01:56,323: [411] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:56,762: [436] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:56,762: [436] m.main:INFO: Beginning analysis
+2024-04-01 13:01:56,765: [436] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:56,792: [436] m.e.manticore:INFO: Failed to build contract are Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:56,854: [436] m.c.manticore:INFO: Results in /mcore_eyk167wb
+2024-04-01 13:01:56,854: [436] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:57,292: [461] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:57,292: [461] m.main:INFO: Beginning analysis
+2024-04-01 13:01:57,294: [461] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:57,317: [461] m.e.manticore:INFO: Failed to build contract considered Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:57,387: [461] m.c.manticore:INFO: Results in /mcore_ccqjl7io
+2024-04-01 13:01:57,387: [461] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:57,826: [486] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:57,827: [486] m.main:INFO: Beginning analysis
+2024-04-01 13:01:57,829: [486] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:57,848: [486] m.e.manticore:INFO: Failed to build contract to Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:57,907: [486] m.c.manticore:INFO: Results in /mcore_6hxwclsm
+2024-04-01 13:01:57,908: [486] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:58,395: [511] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:58,395: [511] m.main:INFO: Beginning analysis
+2024-04-01 13:01:58,397: [511] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:58,424: [511] m.e.manticore:INFO: Failed to build contract be Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:58,490: [511] m.c.manticore:INFO: Results in /mcore_i_5mfqw6
+2024-04-01 13:01:58,490: [511] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:58,977: [536] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:58,977: [536] m.main:INFO: Beginning analysis
+2024-04-01 13:01:58,979: [536] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:58,998: [536] m.e.manticore:INFO: Failed to build contract strictly Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:59,064: [536] m.c.manticore:INFO: Results in /mcore_bo3sban5
+2024-04-01 13:01:59,065: [536] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:01:59,528: [561] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:01:59,528: [561] m.main:INFO: Beginning analysis
+2024-04-01 13:01:59,530: [561] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:01:59,549: [561] m.e.manticore:INFO: Failed to build contract less Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:01:59,620: [561] m.c.manticore:INFO: Results in /mcore_quzs9djm
+2024-04-01 13:01:59,621: [561] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:02:00,078: [586] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:02:00,078: [586] m.main:INFO: Beginning analysis
+2024-04-01 13:02:00,080: [586] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:02:00,105: [586] m.e.manticore:INFO: Failed to build contract than Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:02:00,173: [586] m.c.manticore:INFO: Results in /mcore_397mh1qy
+2024-04-01 13:02:00,173: [586] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:02:00,635: [611] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:02:00,635: [611] m.main:INFO: Beginning analysis
+2024-04-01 13:02:00,637: [611] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:02:00,663: [611] m.e.manticore:INFO: Failed to build contract the Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:02:00,732: [611] m.c.manticore:INFO: Results in /mcore_rf9hsh_y
+2024-04-01 13:02:00,733: [611] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:02:01,184: [636] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:02:01,184: [636] m.main:INFO: Beginning analysis
+2024-04-01 13:02:01,186: [636] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:02:01,205: [636] m.e.manticore:INFO: Failed to build contract released Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:02:01,277: [636] m.c.manticore:INFO: Results in /mcore_l8k0smxy
+2024-04-01 13:02:01,277: [636] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:02:01,723: [661] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:02:01,723: [661] m.main:INFO: Beginning analysis
+2024-04-01 13:02:01,725: [661] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:02:01,752: [661] m.e.manticore:INFO: Failed to build contract version Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:02:01,821: [661] m.c.manticore:INFO: Results in /mcore_y9tc1zgf
+2024-04-01 13:02:01,821: [661] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:02:02,310: [686] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:02:02,310: [686] m.main:INFO: Beginning analysis
+2024-04-01 13:02:02,313: [686] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:02:02,339: [686] m.e.manticore:INFO: Failed to build contract pragma Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:02:02,404: [686] m.c.manticore:INFO: Results in /mcore_whdep9s1
+2024-04-01 13:02:02,404: [686] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:02:02,863: [711] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:02:02,863: [711] m.main:INFO: Beginning analysis
+2024-04-01 13:02:02,866: [711] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:02:02,886: [711] m.e.manticore:INFO: Failed to build contract solidity Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:02:02,948: [711] m.c.manticore:INFO: Results in /mcore_r9pcz1ro
+2024-04-01 13:02:02,948: [711] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:02:03,516: [736] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:02:03,516: [736] m.main:INFO: Beginning analysis
+2024-04-01 13:02:03,518: [736] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:02:03,546: [736] m.e.manticore:INFO: Failed to build contract 0.5.11; Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:02:03,614: [736] m.c.manticore:INFO: Results in /mcore_6pvsn7p1
+2024-04-01 13:02:03,615: [736] m.c.manticore:WARNING: Manticore failed to run
+2024-04-01 13:02:04,117: [761] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-04-01 13:02:04,117: [761] m.main:INFO: Beginning analysis
+2024-04-01 13:02:04,120: [761] m.e.manticore:INFO: Starting symbolic create contract
+2024-04-01 13:02:04,139: [761] m.e.manticore:INFO: Failed to build contract ^---------------------^ Errors : Invalid solc compilation sb/VaultCore.sol:482:1: Error: Source file requires different compiler version (current compiler is 0.5.17+commit.d19bba13.Linux.g++ - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.11;
+^---------------------^
+
+. Solidity failed to generate bytecode for your contract. Check if all the abstract functions are implemented. 
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1766, in worker_finalize
+    finalizer(q.get_nowait())
+  File "/usr/local/lib/python3.7/dist-packages/manticore/ethereum/manticore.py", line 1757, in finalizer
+    if only_alive_states and last_tx.result in {"REVERT", "THROW", "TXERROR"}:
+AttributeError: 'NoneType' object has no attribute 'result'
+2024-04-01 13:02:04,209: [761] m.c.manticore:INFO: Results in /mcore_vbyh6cb9
+2024-04-01 13:02:04,209: [761] m.c.manticore:WARNING: Manticore failed to run

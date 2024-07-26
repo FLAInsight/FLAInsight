@@ -1,0 +1,28 @@
+# Title
+
+(C2) Code Logic Vulnerabilities Exploited By Flash Loan Attacks
+
+## Relationships
+
+[1] Z. Zhang, B. Zhang, W. Xu and Z. Lin, "Demystifying Exploitable Bugs in Smart Contracts," 2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE), Melbourne, Australia, 2023, pp. 615-627, doi: 10.1109/ICSE48619.2023.00061.
+
+## Description
+
+
+
+## Remediation
+
++ Requires comprehensive code review and testing.
+
+## Sample
+
+### Incident
+
+> [2023/3/13] Euler Finance Attack: https://www.immunebytes.com/blog/euler-finance-hack-mar-13-2023-detailed-hack-analysis/
+
+### Code
+
+>  https://etherscan.io/address/0x27182842e098f60e3d576794a5bffb0777e025d3
+
+
+
